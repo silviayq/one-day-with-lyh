@@ -1,0 +1,18 @@
+changeBg:Weixin Image_20250513115430.jpg;
+intro:刘宇浩非常满意！！ -fontSize=medium -backgroundColor=rgba(191, 138, 174, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+setTextbox:on;
+刘宇浩:（小车鸣笛中） -47931.mp3 -fontSize=default;
+刘宇浩:（小车鸣笛中） -rencaisi.mp3 -fontSize=default -left;
+:~~~ -fontSize=default;
+setTextbox:hide;
+changeBg:none;
+intro:和刘宇浩在一起的时间总是很慢。|终于，到了晚上。|刘宇浩准备睡觉了。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+playVideo:WeChat_20250513124818.mp4 -skipOff=true;
+setTextbox:on;
+intro:和刘宇浩的一天就这么结束了。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+:... -fontSize=default;
+changeBg:835e37fac0c1352fbfa7ba8d430b0e46.jpg;
+:此后，你总是常常想念刘宇浩。 -concat -fontSize=default -left;
+:终于有一天，刘宇浩给你拨打了视频电话。 -fontSize=default;
+playVideo:33746435635a594204787573444dec42.mp4 -skipOff=true;
+end;

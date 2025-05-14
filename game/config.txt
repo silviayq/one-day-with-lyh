@@ -1,0 +1,8 @@
+Game_name:和刘宇浩的一天;
+Game_key:12f9adf0839015c;
+Title_img:Weixin Image_20250513080846.png;
+Title_bgm:s_Title.mp3;
+Textbox_theme:imss;
+Description:请和刘宇浩度过愉快的一天吧！;
+Package_name:onedaywlyh;
+Game_Logo:835e37fac0c1352fbfa7ba8d430b0e46.jpg;

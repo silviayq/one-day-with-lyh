@@ -1,0 +1,17 @@
+setTextbox:hide;
+intro:刘宇浩很开心 ovo qwq -fontSize=medium -backgroundColor=rgba(235, 192, 192, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:4c02858e7ef022834f398a27b212910a.jpg;
+setTextbox:on;
+:这时，刘宇浩的肚肚打雷了。于是，你决定去厨房给他做午餐。 -fontSize=default;
+:只是你也不太会做饭，所以让刘宇浩等了很久。 -fontSize=default;
+:他又开始内耗了。 -fontSize=default;
+changeFigure:IMG_5515.PNG;
+miniAvatar:IMG_5515.PNG;
+刘宇浩:呜呜呜...呜呜呜呜（绿茶） -fontSize=default;
+刘宇浩:呜呜呜呜呜（绿茶） -fontSize=default;
+changeFigure:none;
+miniAvatar:none;
+:他竟然对你使用了1技能，但你还是觉得非常愧疚，于是决定做些什么来哄哄他。 -fontSize=default;
+:此时，你决定： -fontSize=default;
+setTextbox:hide;
+choose:给他放Kanye:ending1-be.txt|给他放Mac:path1-1.txt;

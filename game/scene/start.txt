@@ -1,0 +1,23 @@
+; 初始场景，以及特效演示
+bgm:s_Title.mp3;
+unlockBgm:s_Title.mp3 -name=雲を追いかけて;
+intro:清早，|你走出屋子，|发现门口停了一辆日产节能型刘宇浩。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:29503a698da70878c36dea53e24f4985.jpg -next;
+unlockCg:bg.png -name=良夜; // 解锁CG并赋予名称
+changeFigure:IMG_5511.PNG -next;
+setAnimation:enter-from-left -target=fig-left -next;
+刘宇浩:......(高冷） -138301.mp3 -fontSize=default;
+miniAvatar:IMG_5511.PNG;
+刘宇浩:......(绿茶） -不是.mp3 -fontSize=default;
+刘宇浩:......(准备挑拨） -diaoduole.mp3.mp3 -fontSize=default;
+setTextbox:hide;
+miniAvatar:none;
+changeFigure:none;
+intro:看着刘宇浩，你的内心激动万分。|但有些摸不着头脑。|刘宇浩怎么会来这里？ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+setTextbox:on;
+:这时，你看到了刘宇浩的身旁有一封信。 -fontSize=default;
+intro:致：|近日，刘宇浩越来越高冷和内耗了。|我很担心他。或许让他换个新环境能有所改善。|那么就拜托你了！|希望你们可以度过快乐的一天~ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+:你看着眼前的刘宇浩，决定： -fontSize=default;
+setTextbox:hide;
+choose:喂食盒饭:ending1-be.txt|把他停到车库:scene1.txt;
+changeBg:none;
